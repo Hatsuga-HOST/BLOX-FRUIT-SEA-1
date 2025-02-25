@@ -110,7 +110,7 @@ end)
 miscSection:NewToggle("Auto Reconnect", "Otomatis reconnect jika disconnect", function(state)
     if state then
         player.OnTeleport:Connect(function()
-            loadstring(game:HttpGet(("https://raw.githubusercontent.com/.../Reconnect.lua")))()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/Hatsuga-HOST/BLOX-FRUIT-SEA-1/refs/heads/main/Reconnect.lua")))()
         end)
     end
 end)
